@@ -28,7 +28,7 @@
 
 			<h3>Persona:</h3>
 
-			<img src="lonely-gamer-actual.jpg" alt="Lonely guy is missing" title="Our lonely gamer"/>
+			<img src="lonely-gamer-actual.jpg" width="700" height="525" alt="Lonely guy is missing" title="Our lonely gamer"/>
 
 			<ul>
 				<li><strong> Name: </strong> Gerald Gustafson</li>
