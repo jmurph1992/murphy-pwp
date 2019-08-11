@@ -24,7 +24,7 @@
 				that we like to play as a group.</p> <br>
 
 			<p><strong>Portfolio: </strong> This part of the site will have an image gallery of the core members of the clan.
-				It will have some animation, I would like to make the member pictures clickable and have them flip over and
+				It will have some animation, I would like to make the mem ber pictures clickable and have them flip over and
 				have limited member info on the other side. </p> <br>
 
 			<p><strong>Contact: </strong> This section will contain a simple contact form that sends emails/membership requests
