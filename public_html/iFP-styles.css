@@ -22,11 +22,51 @@
 	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='72' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23fb26d6' fill-opacity='0.4'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
-
-.about-us {
-	float: left;
-}
-
 .portfolio {
 	margin-top: 40px;
+}
+
+.contactUs {
+	background-color: #B9005B;
+	color: white;
+	padding-bottom: 5px;
+}
+
+#aboutUs {
+	color: white;
+}
+
+.card {
+	width: 5rem;
+	margin: auto;
+}
+
+.inner {
+	padding: 0;
+}
+
+.number2 {
+	padding: 25px;
+}
+
+.number1 {
+	padding: 25px;
+}
+
+.individual {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+#nav {
+	padding-bottom: 16px;
+	padding-top: 16px;
+}
+
+.page-footer {
+	color: white;
+}
+
+#portfolio {
+	color: white;
 }
