@@ -46,11 +46,11 @@
 }
 
 .number2 {
-	padding: 25px;
+	padding: 25px 25px 0 25px;
 }
 
 .number1 {
-	padding: 25px;
+	padding: 0 25px 25px 25px;
 }
 
 .individual {
@@ -70,3 +70,20 @@
 #portfolio {
 	color: white;
 }
+
+.card-body {
+	background-color: #424242;
+	color: white;
+}
+
+.card-img-top {
+	background-color: #B9005B;
+}
+
+/*#fourth-card {*/
+/*	margin-bottom: 0;*/
+/*}*/
+
+/*#fifth-card {*/
+/*	margin-top: 0;*/
+/*}*/
