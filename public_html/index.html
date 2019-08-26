@@ -3,17 +3,19 @@
 <head>
 	<meta charset="UTF-8">
 
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/styles.css" type="text/css">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+	<link href="https://fonts.googleapis.com/css?family=Parisienne&display=swap" rel="stylesheet">
 
 	<title>i Feel Pretty</title>
 </head>
-<body class="background">
+<body class="background" id="top">
 
 <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark" id="nav">
-	<a class="navbar-brand" href="#">Navbar</a>
+	<a class="navbar-brand" href="#" id="brand">iFP</a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
 			  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
@@ -21,213 +23,240 @@
 	<div class="collapse navbar-collapse" id="navbarNav">
 		<ul class="navbar-nav">
 			<li class="nav-item active">
-				<a class="nav-link" href="#nav">Home <span class="sr-only">(current)</span></a>
+				<a class="nav-link" href="#top">Home <span class="sr-only"></span></a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#abtUs">About Us</a>
+				<a class="nav-link" href="#aboveAbout">About Us</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#portfolio">Portfolio</a>
+				<a class="nav-link" href="#abovePortfolio">Portfolio</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#contactUs">Contact Us</a>
+				<a class="nav-link" href="#aboveContact">Contact Us</a>
 			</li>
 		</ul>
 	</div>
 </nav>
 
-	<div class="jumbotron">
-		<div class="container-fluid">
-			<h1 class="display-4">i Feel Pretty</h1>
-			<p id="minor">Abandoning the common belief of might makes right. We value fun in a group. Hardcore, casual and anyone in between is welcome.
-				We despise trolls and hold even higher contempt for people who only want to talk trash and bully others. We want to have fun and raid in an unthreatening way.
-				Pink and proud!
-			</p>
-		</div>
-	</div>
-
-<div class="container-fluid about-us" id="abtUs">
-	<div class="row playables">
-		<p id="aboutUs">Although we will play almost any game with a friend, these are some of the more frequently played games amongst iFP clan members. We always welcome and encourage
-		new game suggestions, you can only play so much of any game before a change of pace is a nice refresher.</p>
-			<img src="documentation/destiny-2.jpg" class="img-fluid col-lg-3 col-sm-8 playablesPics" alt="Responsive image" title="Destiny" width="200" height="200">
-			<img src="documentation/diablo-3.jpg" class="img-fluid col-lg-3 col-sm-8 playablesPics" alt="Responsive image" title="Diablo" width="200" height="200">
-			<img src="documentation/borderlands.jpg" class="img-fluid col-lg-3 col-sm-8 playablesPics" alt="Responsive image" title="Borderlands" width="200" height="200">
-			<img src="documentation/overwatch.jpg" class="img-fluid col-lg-3 col-sm-8 playablesPics" alt="Responsive image" title="Overwatch" width="200" height="200">
+<div class="jumbotron">
+	<div class="container-fluid">
+		<h1 class="display-4" id="bigWords">i Feel Pretty</h1>
 	</div>
 </div>
 
+<div id="aboveAbout"></div>
+<br><br>
+
+<div class="container-fluid aboutBackground">
+	<div class="row playables">
+		<p class="aboutUs">Abandoning the common belief of might makes right. We value fun in a group. Hardcore, casual and
+			anyone in between is welcome.
+			We despise trolls and hold even higher contempt for people who only want to talk trash and bully others. We
+			want to have fun and raid in an unthreatening way.
+			Pink and proud!</p>
+
+			<p class="aboutUs">Although we will play almost any game with a friend, these are some of the more frequently played
+			games amongst iFP clan members. We always welcome and encourage
+			new game suggestions, you can only play so much of any game before a change of pace is needed.</p>
+		<img src="documentation/destiny-2.jpg" class="img-fluid col-lg-3 col-sm-8 playablesPics" alt="Responsive image"
+			  title="Destiny" width="200" height="200">
+		<img src="documentation/diablo-3.jpg" class="img-fluid col-lg-3 col-sm-8 playablesPics" alt="Responsive image"
+			  title="Diablo" width="200" height="200">
+		<img src="documentation/borderlands.jpg" class="img-fluid col-lg-3 col-sm-8 playablesPics" alt="Responsive image"
+			  title="Borderlands" width="200" height="200">
+		<img src="documentation/overwatch.jpg" class="img-fluid col-lg-3 col-sm-8 playablesPics" alt="Responsive image"
+			  title="Overwatch" width="200" height="200">
+	</div>
+</div>
+
+<div id="abovePortfolio"></div>
+<br><br>
 
 <div class="portfolio" id="portfolio">
 	<div class="container-fluid">
 		<h3 id="members">Portfolio</h3>
-	<div class="row number1">
-		<div class="card col-lg-2 col-sm-8 inner individual" style="width: 15rem;">
-			<img src="../public_html/documentation/IMG950809%20(1).png" class="card-img-top" alt="...">
-			<div class="card-body">
-				<h5 class="card-title">lestat505</h5>
-				<p class="card-text">Founder of i Feel Pretty. Favorite game: Xenogears. Currently playing Destiny 2, Street Fighter V, and Diablo 3.</p>
+		<div class="row number1">
+			<div class="card col-lg-2 col-sm-8 col-md-8 inner individual" style="width: 15rem;">
+				<img src="../public_html/documentation/IMG950809%20(1).png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">lestat505</h5>
+					<p class="card-text">Founder of i Feel Pretty. Favorite game: Xenogears. Currently playing Destiny 2,
+						Street Fighter V, and Diablo 3.</p>
+				</div>
 			</div>
-		</div>
-		<div class="card col-lg-2 col-sm-8 inner individual" style="width: 15rem;">
-			<img src="../public_html/documentation/FullSizeR(1)%20(1).jpg" class="card-img-top" alt="...">
-			<div class="card-body">
-				<h5 class="card-title">Shipon11</h5>
-				<p class="card-text">i Feel Pretty co-founder. Favorite game: Lunar Silver Star Story. Currently playing Destiny (retired until Shadowkeep drops), Overwatch, Street Fighter V, and FIFA.</p>
+			<div class="card col-lg-2 col-sm-8 col-md-8 inner individual" style="width: 15rem;">
+				<img src="../public_html/documentation/FullSizeR(1)%20(1).jpg" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Shipon11</h5>
+					<p class="card-text">i Feel Pretty co-founder. Favorite game: Lunar Silver Star Story. Currently playing
+						Destiny (retired until Shadowkeep drops), Overwatch, Street Fighter V, and FIFA.</p>
+				</div>
 			</div>
-		</div>
-		<div class="card col-lg-2 col-sm-8 inner individual" style="width: 15rem;">
-			<img src="../public_html/documentation/Image-11(1)%20(1).jpg" class="card-img-top" alt="...">
-			<div class="card-body">
-				<h5 class="card-title">xXSte_loXx</h5>
-				<p class="card-text">Favorite game: Madden. Currently playing Madden, Apex Legends, and The Legend of Zelda: Breath of the Wild.</p>
+			<div class="card col-lg-2 col-sm-8 col-md-8 inner individual" style="width: 15rem;">
+				<img src="../public_html/documentation/Image-11(1)%20(1).jpg" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">xXSte_loXx</h5>
+					<p class="card-text">Favorite game: Madden. Currently playing Madden, Apex Legends, and The Legend of
+						Zelda: Breath of the Wild.</p>
+				</div>
 			</div>
-		</div>
-		<div class="card col-lg-2 col-sm-8 inner individual" style="width: 15rem;" id="fourth-card">
-			<img src="../public_html/documentation/george-pagan-iii-P2pRHSIWa1U-unsplash.jpg" class="card-img-top" alt="...">
-			<div class="card-body">
-				<h5 class="card-title">TheQuotedRaven1</h5>
-				<p class="card-text">iFP's own Sergeant Hufflepuff. Favorite game: Final Fantasy 8. Currently playing Destiny 2, Overwatch, and Apex Legends.</p>
+			<div class="card col-lg-2 col-sm-8 col-md-8 inner individual" style="width: 15rem;" id="fourth-card">
+				<img src="../public_html/documentation/honeyBadger.jpg" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">TheQuotedRaven1</h5>
+					<p class="card-text">iFP's own Sergeant Hufflepuff. Favorite game: Final Fantasy 8. Currently playing
+						Destiny 2, Overwatch, and Apex Legends.</p>
+				</div>
 			</div>
 		</div>
 	</div>
-</div>
 	<div class="container-fluid">
 		<div class="row number2">
-			<div class="card col-lg-2 col-sm-8 inner individual" style="width: 15rem;" id="fifth-card">
+			<div class="card col-lg-2 col-sm-8 col-md-8 inner individual" style="width: 15rem;" id="fifth-card">
 				<img src="../public_html/documentation/20190718_2103551%20(1).jpg" class="card-img-top" alt="...">
 				<div class="card-body">
 					<h5 class="card-title">Praetendere</h5>
 					<p class="card-text">He drinks and he knows things. Currently playing Destiny 1 & 2 and Worms.</p>
 				</div>
 			</div>
-			<div class="card col-lg-2 col-sm-8 inner individual" style="width: 15rem;">
-				<img src="../public_html/documentation/michelle-bonkosky-9Kl9hbQlk6U-unsplash.jpg" class="card-img-top" alt="...">
+			<div class="card col-lg-2 col-sm-8 col-md-8 inner individual" style="width: 15rem;">
+				<img src="../public_html/documentation/michelle-bonkosky-9Kl9hbQlk6U-unsplash.jpg" class="card-img-top"
+					  alt="...">
 				<div class="card-body">
 					<h5 class="card-title">JUUS-TOWN</h5>
-					<p class="card-text">Been a member of iFP for 5ish years. I mostly play Destiny right now but I'll play any game!</p>
+					<p class="card-text">Been a member of iFP for 5ish years. I mostly play Destiny right now but I'll play
+						any game!</p>
 				</div>
 			</div>
-			<div class="card col-lg-2 col-sm-8 inner individual" style="width: 15rem;">
+			<div class="card col-lg-2 col-sm-8 col-md-8 inner individual" style="width: 15rem;">
 				<img src="../public_html/documentation/jimjam%20(1).jpg" class="card-img-top" alt="...">
 				<div class="card-body">
 					<h5 class="card-title">Phaselock214</h5>
-					<p class="card-text">"I can't aim, but I can raid." Favorite game series is Borderlands. Currently playing Destiny 2.</p>
+					<p class="card-text">"I can't aim, but I can raid." Favorite game series is Borderlands. Currently
+						playing Destiny 2.</p>
 				</div>
 			</div>
-			<div class="card col-lg-2 col-sm-8 inner individual" style="width: 15rem;">
+			<div class="card col-lg-2 col-sm-8 col-md-8 inner individual" style="width: 15rem;">
 				<img src="../public_html/documentation/SeravieIcon.jpg" class="card-img-top" alt="...">
 				<div class="card-body">
 					<h5 class="card-title">Seravie</h5>
-					<p class="card-text">Resident rager. Favorite games: Nier Automata and Metal Gear 3: Snake Eater. Currently playing Variety Streamer.</p>
+					<p class="card-text">Resident rager. Favorite games: Nier Automata and Metal Gear 3: Snake Eater.
+						Currently playing Variety Streamer.</p>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
 
+<div id="aboveContact"></div>
+<br><br>
+
 <!--Section: Contact v.2-->
 <div class="container-fluid contactUs" id="contactUs">
-<section class="mb-4">
+	<section class="mb-4">
 
-	<!--Section heading-->
-	<h2 class="h1-responsive font-weight-bold text-center my-4" id="contact">Contact us</h2>
-	<!--Section description-->
-	<p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. A clan member will reach out
-					shortly, unless we're in the middle of a raid or other various group activities.</p>
+		<!--Section heading-->
+		<h2 class="h1-responsive font-weight-bold text-center my-4" id="contact">Contact us</h2>
+		<!--Section description-->
+		<p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us
+			directly. A clan member will reach out
+			shortly, unless we're in the middle of a raid or other various group activities.</p>
 
-	<div class="row">
+		<div class="row">
 
-		<!--Grid column-->
-		<div class="col-md-9 mb-md-0 mb-5">
-			<form id="contact-form" name="contact-form" action="../php/index.php" method="POST">
+			<!--Grid column-->
+			<div class="col-md-9 mb-md-0 mb-5">
+				<form id="contact-form" name="contact-form" action="../php/index.php" method="POST">
 
-				<!--Grid row-->
+					<!--Grid row-->
+					<div class="row">
+
+						<!--Grid column-->
+						<div class="col-md-6">
+							<div class="md-form mb-0">
+								<input type="text" id="name" name="name" class="form-control">
+								<label for="name" class="">Your name</label>
+							</div>
+						</div>
+						<!--Grid column-->
+
+						<!--Grid column-->
+						<div class="col-md-6">
+							<div class="md-form mb-0">
+								<input type="text" id="email" name="email" class="form-control">
+								<label for="email" class="">Your email</label>
+							</div>
+						</div>
+						<!--Grid column-->
+
+					</div>
+					<!--Grid row-->
+
+					<!--Grid row-->
+					<div class="row">
+						<div class="col-md-12">
+							<div class="md-form mb-0">
+								<input type="text" id="subject" name="subject" class="form-control">
+								<label for="subject" class="">Subject</label>
+							</div>
+						</div>
+					</div>
+					<!--Grid row-->
+
+					<!--Grid row-->
+					<div class="row">
+
+						<!--Grid column-->
+						<div class="col-md-12">
+
+							<div class="md-form">
+								<textarea type="text" id="message" name="message" rows="2"
+											 class="form-control md-textarea"></textarea>
+								<label for="message">Your message</label>
+							</div>
+
+						</div>
+					</div>
+					<!--Grid row-->
+
+					<!-- reCAPTCHA -->
+					<div class="g-recaptcha" data-sitekey="6LdeCrMUAAAAAB8ClLoMfwVDSapdpaE250WVrstq"></div>
+
+					<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+					<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+
+				</form>
+
+				<!--empty area for form error/success output-->
 				<div class="row">
-
-					<!--Grid column-->
-					<div class="col-md-6">
-						<div class="md-form mb-0">
-							<input type="text" id="name" name="name" class="form-control">
-							<label for="name" class="">Your name</label>
-						</div>
-					</div>
-					<!--Grid column-->
-
-					<!--Grid column-->
-					<div class="col-md-6">
-						<div class="md-form mb-0">
-							<input type="text" id="email" name="email" class="form-control">
-							<label for="email" class="">Your email</label>
-						</div>
-					</div>
-					<!--Grid column-->
-
-				</div>
-				<!--Grid row-->
-
-				<!--Grid row-->
-				<div class="row">
-					<div class="col-md-12">
-						<div class="md-form mb-0">
-							<input type="text" id="subject" name="subject" class="form-control">
-							<label for="subject" class="">Subject</label>
-						</div>
+					<div class="col-xs-12">
+						<div id="output"></div>
 					</div>
 				</div>
-				<!--Grid row-->
 
-				<!--Grid row-->
-				<div class="row">
-
-					<!--Grid column-->
-					<div class="col-md-12">
-
-						<div class="md-form">
-							<textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-							<label for="message">Your message</label>
-						</div>
-
-					</div>
-				</div>
-				<!--Grid row-->
-
-				<!-- reCAPTCHA -->
-				<div class="g-recaptcha" data-sitekey="6LdeCrMUAAAAAB8ClLoMfwVDSapdpaE250WVrstq"></div>
-
-				<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
-				<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
-
-			</form>
-
-			<!--empty area for form error/success output-->
-			<div class="row">
-				<div class="col-xs-12">
-					<div id="output"></div>
-				</div>
+				<div class="status"></div>
 			</div>
+			<!--Grid column-->
 
-			<div class="status"></div>
+			<!--Grid column-->
+			<div class="col-md-3 text-center">
+				<ul class="list-unstyled mb-0">
+					<li><i class="fas fa-map-marker-alt fa-2x"></i>
+						<p>Albuquerque, NM 87121, USA</p>
+					</li>
+
+					<li><i class="fas fa-phone mt-4 fa-2x"></i>
+						<p>New Mexico is our home state but we are a multi-state organization! Please do not feel discouraged
+							from joining
+							just because you may live in a different place than our home.</p>
+					</li>
+				</ul>
+			</div>
+			<!--Grid column-->
+
 		</div>
-		<!--Grid column-->
 
-		<!--Grid column-->
-		<div class="col-md-3 text-center">
-			<ul class="list-unstyled mb-0">
-				<li><i class="fas fa-map-marker-alt fa-2x"></i>
-					<p>Albuquerque, NM 87121, USA</p>
-				</li>
-
-				<li><i class="fas fa-phone mt-4 fa-2x"></i>
-					<p>Don't forget to take a break every now and then, we need our clan mates in tip top condition!</p>
-				</li>
-			</ul>
-		</div>
-		<!--Grid column-->
-
-	</div>
-
-</section>
+	</section>
 </div>
 <!--Section: Contact v.2-->
 
@@ -235,8 +264,8 @@
 <footer class="page-footer font-small bg-dark">
 
 	<!-- Copyright -->
-	<div class="footer-copyright text-center py-3">© 2019 No Copyright:
-		<a href="https://bootcamp-coders.cnm.edu/~jmurphy33/murphy-pwp/public_html/index.html#"> Unnamed</a>
+	<div class="footer-copyright text-center py-3">Don't forget to take a break every now and then, we need our clan
+		mates in tip top condition!
 	</div>
 	<!-- Copyright -->
 
@@ -244,21 +273,32 @@
 <!-- Footer -->
 
 
-<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+		  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		  crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		  crossorigin="anonymous"></script>
 
 
 <!-- jQuery Form, Additional Methods, Validate -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+<script type="text/javascript"
+		  src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+<script type="text/javascript"
+		  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+<script type="text/javascript"
+		  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 
 <!-- Your JavaScript Form Validator -->
 <script src="js/form-validate.js"></script>
 
 <!-- Google reCAPTCHA -->
 <script src='https://www.google.com/recaptcha/api.js'></script>
+
+<!--	jquery for menu closing-->
+<script src="js/menu-close.js"></script>
 
 </body>
 </html>
