@@ -17,8 +17,6 @@
 }
 
 .jumbotron {
-	/*display: block;*/
-	/*margin: auto;*/
 	background-image: linear-gradient(black, #B9005B);
 	color: #B9005B;
 	text-align: center;
