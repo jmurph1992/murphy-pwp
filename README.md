@@ -31,3 +31,21 @@ Be careful with the staggered layout when it comes to your Portfolio section on 
 We'll be building PWP in a file named index.php inside of /public_html. Please note that no frontend-facing site files should live outside of the /public_html directory. Remember use an organized and standards-compliant directory structure to house all images, JavaScript, CSS, etc. We are done with the /documentation directory for now!
 
 Your Milestone 2a passes at a Tier IV
+
+## Milestone 3 and Final Feedback
+
+Your site looks great!
+
+There was one html error:
+https://validator.w3.org/nu/?doc=https%3A%2F%2Fbootcamp-coders.cnm.edu%2F%7Ejmurphy33%2Fmurphy-pwp%2Fpublic_html%2Findex.html%23aboveAbout
+
+You have some inline css for image sizing that could be extracted to your css file or replaced with bootstrap classes.
+
+The contact form validates the inputs and sends an email.
+
+Your site is mobile responsive-ish.  The images in the "about us" section would resize smoother if controlled with responsive units or bootstrap classes.
+
+Overall great job!
+
+Milestone 3 Grade Tier 3
+Final Grade Tier 3
